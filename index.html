@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not-Found-Master</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .image{
+            width: 400px;
+            height: 400px;
+            
+        }
+        .btn{
+            background-color: rgb(36, 32, 64);
+            color: white;
+            padding: 20px;
+
+        }
+        
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+              
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="image" src="image/Scarecrow.png">
+            <div>
+                <h1>I Have Bad News For You</h1>
+                <p>The page you are looking<br> for might be removed or is<br> temporarily unavailable </p>
+                <button class="btn">BACK TO HOMEPAGE</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
